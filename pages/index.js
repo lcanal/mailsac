@@ -2,6 +2,8 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
+import homeillustration from '../public/images/homeillustration.svg'
+import Image from 'next/image'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -39,6 +41,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="hidden space-x-10 md:flex md:ml-10">
+                {/* <img src='./styles/images/logo.png' className="h-8 w-auto sm:h-10" alt=""/> */}
+                {/* <Image src={logo} className="h-8 w-auto sm:h-10" width={300} height={145} alt=""/> */}
                 {navigation.map((item) => (
                   <a key={item.name} href={item.href} className="font-medium text-slate-800 hover:text-rose-900 hover:underline  hover:decoration-2">
                     {item.name}
@@ -73,7 +77,7 @@ export default function Home() {
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
                     <img
-                      className="h-8 w-auto"
+                      className="h-8 w-full"
                       src="https://tailwindui.com/img/logos/workflow-mark-rose-600.svg"
                       alt=""
                     />
@@ -112,22 +116,17 @@ export default function Home() {
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
+
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-slate-800 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
-                    <span className="md:block">Data to enrich your</span>{' '}
-                    <span className="text-rose-600 md:block">online business</span>
+                    <span className="md:block">Disposable Email</span>{' '}
+                    <span className="text-rose-600 md:block">and API</span>
                   </h1>
                   <p className="mt-3 text-base text-slate-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   Make up any email address @mailsac.com and you can instantly receive mail. No need to create the email first!
                   </p>
                   <div className="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
-                    body
-                  </div>
-                </div>
-              </div>
-              <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
-                <div className="bg-white ring-2 ring-slate-100 sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
+                  <div className="bg-white ring-2 ring-slate-100 sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
                   <div className="px-4 py-8 sm:px-10">
-
                     <div className="mt-3">
                       <form action="#" method="POST" className="space-y-6">
                         <div className='flex'>
@@ -183,6 +182,11 @@ export default function Home() {
                     </p>
                   </div> */}
                 </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mx-auto mt-6 overflow-hidden" style={{maxWidth: 660 + 'px'}}>
+                  <Image src={homeillustration} width={660} layout='fixed' />
               </div>
             </div>
           </div>
