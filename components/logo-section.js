@@ -9,7 +9,7 @@ const logos = [
 
 export default function LogoSection(params) {
     return (
-    <div className="mt-32 bg-sky-700 border-t-2 border-b-2 border-gray-500 py-10">
+    <div className="lg:-mt-32 bg-sky-700 border-t-2 border-b-2 border-gray-500 py-10">
     <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
         <div>
@@ -21,11 +21,6 @@ export default function LogoSection(params) {
             tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus
             morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.
             </p>
-            {/* <div className="mt-6">
-            <a href="#" className="text-base font-medium text-rose-500">
-                Meet our investors and advisors&nbsp&rarr;
-            </a>
-            </div> */}
         </div>
         <div className="mt-12 grid grid-cols-2  md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
             {logos.map((logo) => (

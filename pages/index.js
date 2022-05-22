@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import Nav from '../components/nav';
-import homeillustration from '../public/images/homeillustration-500.svg'
 import Audience from '../components/audience'
 import LogoSection from '../components/logo-section'
 
@@ -12,8 +10,8 @@ export default function Home() {
       </div>
       <div className="relative pt-6 pb-16 sm:pb-24">
         <Nav />
-        <main className="mt-16 sm:mt-24">
-          <div className="mx-auto max-w-7xl">
+        <main className="lg:mt-32  sm:mt-24">
+          <div className="mx-auto max-w-7xl min-h-screen">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
@@ -86,8 +84,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-              <div className="mx-auto mt-6 overflow-hidden lg:flex" style={{maxWidth: 700 + 'px'}}>
-                  <Image src={homeillustration} width={700} layout='fixed' />
+              <div className="mx-auto mt-6 overflow-hidden lg:flex w-screen" >
+                  <img src='/images/homeillustration-500.svg' className='w-full lg:w-1/2' />
               </div>
             </div>
           </div>

@@ -21,8 +21,7 @@ export default function Nav(params){
           >
             <div className="flex items-center justify-between flex-1">
               <div className="flex w-full md:w-auto">
-              <Link href="/" className='font-nunito font-extrabold mr-10 text-4xl text-rose-500 tracking-widest'>
-                {/* <Image src="/images/logo2.png" alt="Mailsac" layout='intrinsic' wi/> */}
+              <Link href="/" className='font-nunito font-extrabold mr-24 text-4xl text-rose-500 tracking-widest'>
                   <img src='/images/logo.svg' alt='Mailsac' className='h-10 lg:h-8 mr-10 hover:cursor-pointer' />
                 </Link>
 
@@ -34,7 +33,7 @@ export default function Nav(params){
                     alt=""
                   />
                 </a>
-                <div className="-mr-2 flex items-center md:hidden">
+                <div className="flex items-center md:hidden">
                   <Popover.Button className="bg-rose-500 rounded-md p-2 inline-flex items-center justify-center text-neutral-50 hover:bg-rose-600 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -42,8 +41,6 @@ export default function Nav(params){
                 </div>
               </div>
               <div className="hidden space-x-10 md:flex md:ml-10">
-                {/* <img src='./styles/images/logo.png' className="h-8 w-auto sm:h-10" alt=""/> */}
-                {/* <Image src={logo} className="h-8 w-auto sm:h-10" width={300} height={145} alt=""/> */}
                 {navigation.map((item) => (
                   <a key={item.name} href={item.href} className="font-medium block text-slate-800 hover:text-rose-700 hover:underline underline-offset-4 hover:decoration-2">
                     {item.name}
