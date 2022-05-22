@@ -16,9 +16,9 @@ export default function Home() {
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
 
-                  <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-slate-800 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
-                    <span className="md:block">Disposable Email</span>{' '}
-                    <span className="text-rose-500 md:block">and API</span>
+                  <h1 className="mt-20 lg:mt-4 text-4xl tracking-tight font-extrabold text-slate-800 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
+                    <span className="block">Disposable Email</span>{' '}
+                    <span className="text-rose-500 block">and API</span>
                   </h1>
                   <p className="mt-3 text-base text-slate-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   Make up any email address <strong>@mailsac.com</strong> and you can instantly receive mail. No need to create the email first!

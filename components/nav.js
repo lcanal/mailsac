@@ -21,8 +21,8 @@ export default function Nav(params){
           >
             <div className="flex items-center justify-between flex-1">
               <div className="flex w-full md:w-auto">
-              <Link href="/" className='font-nunito font-extrabold mr-24 text-4xl text-rose-500 tracking-widest'>
-                  <img src='/images/logo.svg' alt='Mailsac' className='h-10 lg:h-8 mr-10 hover:cursor-pointer' />
+              <Link href="/">
+                  <img src='/images/logo.svg' alt='Mailsac' className='h-10 lg:h-8 mr-24 hover:cursor-pointer' />
                 </Link>
 
                 <a href="#">
@@ -42,9 +42,12 @@ export default function Nav(params){
               </div>
               <div className="hidden space-x-10 md:flex md:ml-10">
                 {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="font-medium block text-slate-800 hover:text-rose-700 hover:underline underline-offset-4 hover:decoration-2">
-                    {item.name}
-                  </a>
+                  <Link key={item.name} href={item.href}>
+                    <a className="font-medium block text-slate-800 hover:text-rose-700 hover:underline underline-offset-4 hover:decoration-2">
+                      {item.name}
+                    </a>
+                    
+                  </Link>
                 ))}
               </div>
             </div>
@@ -89,13 +92,14 @@ export default function Nav(params){
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-1 block">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
-                      className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                     >
-                      {item.name}
-                    </a>
+                      <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+                        {item.name}
+                      </a>
+                    </Link>
                   ))}
                 </div>
                 <a
