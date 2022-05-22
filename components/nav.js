@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import Link from 'next/link';
 
 const navigation = [
     { name: 'API', href: 'https://mailsac.com/docs/api' },
@@ -20,10 +21,10 @@ export default function Nav(params){
           >
             <div className="flex items-center justify-between flex-1">
               <div className="flex w-full md:w-auto">
-              <a href="/" className='font-nunito font-extrabold mr-10 text-4xl text-rose-500 tracking-widest'>
+              <Link href="/" className='font-nunito font-extrabold mr-10 text-4xl text-rose-500 tracking-widest'>
                 {/* <Image src="/images/logo2.png" alt="Mailsac" layout='intrinsic' wi/> */}
-                  <img src='/images/logo.svg' alt='Mailsac' className='h-10 lg:h-8' />
-                </a>
+                  <img src='/images/logo.svg' alt='Mailsac' className='h-10 lg:h-8 mr-10 hover:cursor-pointer' />
+                </Link>
 
                 <a href="#">
                   <span className="sr-only">Workflow</span>
