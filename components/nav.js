@@ -25,14 +25,6 @@ export default function Nav(params){
                   <img src='/images/logo.svg' alt='Mailsac' className='h-10 lg:h-8 mr-24 hover:cursor-pointer' />
                 </Link>
 
-                <a href="#">
-                  <span className="sr-only">Workflow</span>
-                  <img
-                    className="h-8 w-auto sm:h-10"
-                    src="https://tailwindui.com/img/logos/workflow-mark-gray-500.svg"
-                    alt=""
-                  />
-                </a>
                 <div className="flex items-center md:hidden">
                   <Popover.Button className="bg-rose-500 rounded-md p-2 inline-flex items-center justify-center text-neutral-50 hover:bg-rose-600 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
