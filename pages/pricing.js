@@ -163,7 +163,7 @@ export default function PricingPage(params){
                         {tiers.map((tier) => (
                         <th
                             key={tier.name}
-                            className="w-1/5 pb-4 px-6 text-lg leading-6 font-medium text-gray-900 text-left"
+                            className="w-1/6 pb-4 px-6 text-lg leading-6 font-medium text-gray-900 text-left"
                             scope="col"
                         >
                             {tier.name}

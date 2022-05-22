@@ -86,7 +86,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-              <div className="mx-auto mt-6 overflow-hidden " style={{maxWidth: 700 + 'px'}}>
+              <div className="mx-auto mt-6 overflow-hidden lg:flex" style={{maxWidth: 700 + 'px'}}>
                   <Image src={homeillustration} width={700} layout='fixed' />
               </div>
             </div>
