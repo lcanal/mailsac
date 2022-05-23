@@ -10,8 +10,8 @@ export default function Home() {
       </div>
       <div className="relative pt-6 pb-16 sm:pb-24">
         <Nav />
-        <main className="lg:mt-32  sm:mt-24">
-          <div className="mx-auto max-w-7xl min-h-screen">
+        <main className="lg:mt-32 sm:mt-24">
+          <div className="mx-auto max-w-7xl mb-20 lg:mb-80">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
           </div>
               <div className="mx-auto mt-6 overflow-hidden lg:flex w-screen" >
-                  <img src='/images/homeillustration-500.svg' className='w-full lg:w-1/2' />
+                  <img src='/images/homeillustration-500.svg' className='w-11/12 mx-auto lg:mx-0 lg:w-1/2' />
               </div>
             </div>
           </div>
