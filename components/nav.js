@@ -24,7 +24,6 @@ export default function Nav(params){
               <Link href="/">
                   <img src='/images/logo.svg' alt='Mailsac' className='h-10 lg:h-8 mr-24 hover:cursor-pointer' />
                 </Link>
-
                 <div className="flex items-center md:hidden">
                   <Popover.Button className="bg-rose-500 rounded-md p-2 inline-flex items-center justify-center text-neutral-50 hover:bg-rose-600 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
@@ -68,13 +67,6 @@ export default function Nav(params){
             >
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
-                  <div>
-                    <img
-                      className="h-8 w-full"
-                      src="https://tailwindui.com/img/logos/workflow-mark-rose-600.svg"
-                      alt=""
-                    />
-                  </div>
                   <div className="-mr-2">
                     <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500">
                       <span className="sr-only">Close menu</span>
