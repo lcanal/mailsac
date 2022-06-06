@@ -19,7 +19,7 @@ export default function Nav(params){
             className="relative max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-0"
             aria-label="Global"
           >
-            <div className="flex flex-1">
+            <div className="flex items-center justify-between flex-1">
               <div className="flex w-full justify-between md:w-auto">
               <Link href="/">
                   <img src='/images/banner.svg' alt='Pressblox' className='mr-24 hover:cursor-pointer' />
