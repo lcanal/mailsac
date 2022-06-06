@@ -21,7 +21,7 @@ export default function Home() {
                     <span className="text-slate-600 block">and less time searching for them</span>
                   </h1>
                   <p className="mt-3 text-base text-slate-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Compose and track your writings using Pressblox, a template builder you'll love.
+                    Compose and track your writings using Pressblox, a template builder you&apos;ll love.
                   </p>
                   <div className="mt-1 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                   <div className="bg-gray-50  sm:max-w-lg sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
