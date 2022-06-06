@@ -85,7 +85,7 @@ export default function PricingPage(params){
                         <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
                         <a
                         href={tier.href}
-                        className="mt-6 block border border border-transparent rounded-md bg-rose-500 w-full py-2 text-sm font-semibold text-neutral-50 text-center hover:bg-rose-700"
+                        className="mt-6 block border border border-transparent rounded-md bg-orange-500 w-full py-2 text-sm font-semibold text-neutral-50 text-center hover:bg-orange-700"
                         >
                         Buy {tier.name}
                         </a>
@@ -141,7 +141,7 @@ export default function PricingPage(params){
                     >
                         <a
                         href={tier.href}
-                        className="block w-full bg-rose-500 border border border-transparent rounded-md py-2 text-sm font-semibold text-neutral-50 text-center hover:bg-rose-700"
+                        className="block w-full bg-orange-500 border border border-transparent rounded-md py-2 text-sm font-semibold text-neutral-50 text-center hover:bg-orange-700"
                         >
                         Buy {tier.name}
                         </a>
@@ -186,7 +186,7 @@ export default function PricingPage(params){
                             <p className="mt-4 mb-16 text-sm text-gray-500">{tier.description}</p>
                             <a
                                 href={tier.href}
-                                className="absolute bottom-0 flex-grow block w-full bg-rose-500 border border border-transparent rounded-md 5 py-2 text-sm font-semibold text-neutral-50 text-center hover:bg-rose-700"
+                                className="absolute bottom-0 flex-grow block w-full bg-orange-500 border border border-transparent rounded-md 5 py-2 text-sm font-semibold text-neutral-50 text-center hover:bg-orange-700"
                             >
                                 Buy {tier.name}
                             </a>
@@ -243,7 +243,7 @@ export default function PricingPage(params){
                         <td key={tier.name} className="pt-5 px-6">
                             <a
                             href={tier.href}
-                            className="block w-full bg-rose-500 border border border-transparent rounded-md py-2 text-sm font-semibold text-neutral-50 text-center hover:bg-rose-700"
+                            className="block w-full bg-orange-500 border border border-transparent rounded-md py-2 text-sm font-semibold text-neutral-50 text-center hover:bg-orange-700"
                             >
                             Buy {tier.name}
                             </a>

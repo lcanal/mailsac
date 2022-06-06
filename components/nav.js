@@ -4,11 +4,11 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link';
 
 const navigation = [
-    { name: 'API', href: 'https://mailsac.com/docs/api' },
-    { name: 'Support', href: 'https://docs.mailsac.com/en/latest/about/contact_and_support.html' },
-    { name: 'Community', href: 'https://forum.mailsac.com'},
-    { name: 'Blog', href: 'https://blog.mailsac.com'},
+    // { name: 'API', href: '' },
+    // { name: 'Support', href: '' },
+    // { name: 'Community', href: ''},
     { name: 'Pricing', href: '/pricing' },
+    { name: 'Log In', href: 'https://app.pressblox.com/users/sign_in' },
   ]
 
   
@@ -22,10 +22,10 @@ export default function Nav(params){
             <div className="flex items-center justify-between flex-1">
               <div className="flex w-full md:w-auto">
               <Link href="/">
-                  <img src='/images/logo.svg' alt='Mailsac' className='h-10 lg:h-8 mr-24 hover:cursor-pointer' />
+                  <img src='/images/banner.svg' alt='Pressblox' className='h-10 lg:h-16 mr-24 hover:cursor-pointer' />
                 </Link>
                 <div className="flex items-center md:hidden">
-                  <Popover.Button className="bg-rose-500 rounded-md p-2 inline-flex items-center justify-center text-neutral-50 hover:bg-rose-600 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                  <Popover.Button className="bg-orange-500 rounded-md p-2 inline-flex items-center justify-center text-neutral-50 hover:bg-orange-600 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -34,7 +34,7 @@ export default function Nav(params){
               <div className="hidden space-x-10 md:flex md:ml-10">
                 {navigation.map((item) => (
                   <Link key={item.name} href={item.href}>
-                    <a className="font-medium block text-slate-800 hover:text-rose-700 hover:underline underline-offset-4 hover:decoration-2">
+                    <a className="font-medium block text-slate-800 hover:text-orange-700 hover:underline underline-offset-4 hover:decoration-2">
                       {item.name}
                     </a>
                     
@@ -44,10 +44,10 @@ export default function Nav(params){
             </div>
             <div className="hidden md:flex">
               <a
-                href="https://mailsac.com/login"
-                className="inline-flex items-center ml-10 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-slate-100 bg-rose-500 hover:bg-rose-700"
+                href="https://app.pressblox.com/users/sign_up"
+                className="inline-flex items-center ml-10 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-slate-100 bg-orange-500 hover:bg-orange-700"
               >
-                Log In
+                Sign Up
               </a>
             </div>
           </nav>
@@ -68,7 +68,7 @@ export default function Nav(params){
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500">
+                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
                       <span className="sr-only">Close menu</span>
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -88,7 +88,7 @@ export default function Nav(params){
                 </div>
                 <a
                   href="#"
-                  className="block w-full px-5 py-3 text-center font-medium text-rose-600 bg-gray-50 hover:bg-gray-100"
+                  className="block w-full px-5 py-3 text-center font-medium text-orange-600 bg-gray-50 hover:bg-gray-100"
                 >
                   Login
                 </a>

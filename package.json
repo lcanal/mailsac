@@ -1,5 +1,6 @@
 {
-  "name": "mailsac",
+  "name": "pressblox",
+  "description": "Marketing site for pressblox",
   "version": "0.1.0",
   "private": true,
   "scripts": {
