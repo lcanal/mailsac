@@ -19,13 +19,13 @@ export default function Nav(params){
             className="relative max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-0"
             aria-label="Global"
           >
-            <div className="flex items-center justify-between flex-1">
-              <div className="flex w-full md:w-auto">
+            <div className="flex flex-1">
+              <div className="flex w-full justify-between md:w-auto">
               <Link href="/">
                   <img src='/images/banner.svg' alt='Pressblox' className='mr-24 hover:cursor-pointer' />
-                </Link>
+              </Link>
                 <div className="flex items-center md:hidden">
-                  <Popover.Button className="bg-orange-500 rounded-md p-2 inline-flex items-center justify-center text-neutral-50 hover:bg-orange-600 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                  <Popover.Button className="mr-5 bg-orange-500 rounded-md p-2 inline-flex items-center justify-center text-neutral-50 hover:bg-orange-600 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -87,10 +87,10 @@ export default function Nav(params){
                   ))}
                 </div>
                 <a
-                  href="#"
+                  href="https://app.pressblox.com/users/sign_up"
                   className="block w-full px-5 py-3 text-center font-medium text-orange-600 bg-gray-50 hover:bg-gray-100"
                 >
-                  Login
+                  Register
                 </a>
               </div>
             </Popover.Panel>
