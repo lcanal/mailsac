@@ -9,8 +9,8 @@ export default function PricingPage(params){
             <Nav />
             <main className="lg:mt-32 sm:mt-24">
                 <div className="text-center">
-                    <h1 className="text-7xl mb-10">Pricing Page</h1>
-                    <p className="text-lg">Pricing information not yet available</p>
+                    <h1 className="text-7xl mb-10">404</h1>
+                    <p className="text-lg">Page not found</p>
                 </div>
             </main>
         </div>

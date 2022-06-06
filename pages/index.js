@@ -1,7 +1,6 @@
 import Nav from '../components/nav';
-import Audience from '../components/audience'
-import LogoSection from '../components/logo-section'
 import DemoSection from '../components/demo-section';
+import FeaturesSection from '../components/features-section';
 
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
       <div className="relative pt-6 pb-16 sm:pb-24">
         <Nav />
         <main className="lg:mt-32 sm:mt-24">
-          <div className="mx-auto max-w-7xl mb-20 lg:mb-80">
+          <div className="mx-auto max-w-7xl mb-20 lg:mb-72">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
@@ -22,7 +21,7 @@ export default function Home() {
                     <span className="text-slate-600 block">and less time searching for them</span>
                   </h1>
                   <p className="mt-3 text-base text-slate-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  Compose and track your writings using Pressblox, a template builder you'll love.
+                    Compose and track your writings using Pressblox, a template builder you'll love.
                   </p>
                   <div className="mt-1 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                   <div className="bg-gray-50  sm:max-w-lg sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
@@ -46,12 +45,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-        {/* <LogoSection /> */}
-        
+      
         <DemoSection />
-        
-        <Audience />
+        <FeaturesSection />
         </main>
       </div>
     </div>

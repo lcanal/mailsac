@@ -7,7 +7,7 @@ const navigation = [
     // { name: 'API', href: '' },
     // { name: 'Support', href: '' },
     // { name: 'Community', href: ''},
-    { name: 'Pricing', href: '/pricing' },
+    // { name: 'Pricing', href: '/pricing' },
     { name: 'Log In', href: 'https://app.pressblox.com/users/sign_in' },
   ]
 
