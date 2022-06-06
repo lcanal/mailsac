@@ -16,7 +16,7 @@ export default function Home() {
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
 
-                  <h1 className="mt-20 lg:mt-4 text-4xl tracking-tight font-extrabold text-slate-800 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
+                  <h1 className="mt-10 lg:mt-20 lg:mt-4 text-4xl tracking-tight font-extrabold text-slate-800 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                     <span className="block">Spend more time crafting your docs</span>{' '}
                     <span className="text-slate-600 block">and less time searching for them</span>
                   </h1>

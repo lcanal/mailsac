@@ -16,13 +16,13 @@ export default function Nav(params){
     return (
         <Popover>
           <nav
-            className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+            className="relative max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-0"
             aria-label="Global"
           >
             <div className="flex items-center justify-between flex-1">
               <div className="flex w-full md:w-auto">
               <Link href="/">
-                  <img src='/images/banner.svg' alt='Pressblox' className='h-10 lg:h-16 mr-24 hover:cursor-pointer' />
+                  <img src='/images/banner.svg' alt='Pressblox' className='mr-24 hover:cursor-pointer' />
                 </Link>
                 <div className="flex items-center md:hidden">
                   <Popover.Button className="bg-orange-500 rounded-md p-2 inline-flex items-center justify-center text-neutral-50 hover:bg-orange-600 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">

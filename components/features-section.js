@@ -1,29 +1,29 @@
-import { GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import { TemplateIcon, CollectionIcon, RefreshIcon } from '@heroicons/react/outline'
 
 const features = [
   {
     name: 'Create Your Template',
     description:
       'Write up your email as you normally would.',
-    icon: GlobeAltIcon,
+    icon: TemplateIcon,
   },
   {
     name: 'Add Placeholders',
     description:
       'Hone in on each word or phrase you want to replace.',
-    icon: ScaleIcon,
+    icon: CollectionIcon,
   },
   {
     name: 'Replace',
     description:
       'Fill in each template with only the relevant information pertinent to the person receiving it. Redundant typing done!',
-    icon: LightningBoltIcon,
+    icon: RefreshIcon,
   },
 ]
 
 export default function FeaturesSection() {
   return (
-    <div className="mt-72 py-12 bg-white">
+    <div className="lg:mt-72 py-12 bg-white">
       <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">A better way to send money.</h2>
         <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
