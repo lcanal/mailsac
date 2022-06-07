@@ -10,13 +10,13 @@ const logos = [
 export default function DemoSection(params) {
     return (
         <>
-        <div className="mb-12 justify-center text-2xl font-extrabold tracking-tight text-gray-900  lg:mb-52 lg:-mt-32 lg:ml-56 md:text-5xl lg:text-6xl flex lg:justify-start">
-        Live Template Demo
+        <div className="mb-12 justify-center text-2xl font-extrabold tracking-tight text-gray-900  lg:mb-48 lg:-mt-32 lg:ml-56 md:text-5xl lg:text-6xl flex lg:justify-start">
+        Template Demo
         </div>
         <div className="bg-sky-700 border-t-2 border-b-2 border-gray-200 mb-16 lg:mb-48">
             <div className="relative z-10 container mx-auto sm:flex sm:items-center justify-center px-6 md:px-12">
                 <span className="inset-y-0 left-0 pl-3 flex h-96 items-center shadow-sm">
-                <video src="/video/pressblox_demo.mov" className="rounded-lg border-2 border-gray-100 shadow-lg" autoPlay loop muted />
+                    <video src="/video/pressblox_demo.mov" className="rounded-lg border-2 border-gray-100 shadow-lg" autoPlay loop muted />
                 </span>
 
             {/* <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">

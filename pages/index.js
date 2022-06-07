@@ -16,9 +16,9 @@ export default function Home() {
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
 
-                  <h1 className="mt-10 lg:mt-20 lg:mt-4 text-4xl tracking-tight font-extrabold text-slate-800 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
+                  <h1 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
                     <span className="block">Spend more time crafting your docs</span>{' '}
-                    <span className="text-slate-600 block">and less time searching for them</span>
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-orange-500">and less time searching for them</span>
                   </h1>
                   <p className="mt-3 text-base text-slate-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     Compose and track your writings using Pressblox, a template builder you&apos;ll love.
@@ -30,9 +30,9 @@ export default function Home() {
                       <a
                         href="https://app.pressblox.com/users/sign_up"
                         type="submit"
-                        className="justify-center px-14 py-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-slate-100 bg-orange-500 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                        className="justify-center px-14 py-3 border border-transparent rounded-md shadow-md text-lg font-medium text-slate-100 bg-orange-500 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition duration-150 ease-in-out"
                       >
-                        Sign up
+                        Get Started →
                       </a>
                     </div>
                   </div>
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
           </div>
               <div className="mx-auto mt-6 overflow-hidden lg:flex w-screen" >
-                  <img src='/images/homeillustration-500.svg' className='w-11/12 mx-auto lg:mx-0 lg:w-1/2' />
+                  <img src='/images/homeillustration-500.svg' className='w-11/12 mx-auto lg:mx-0 lg:w-1/2 lg:pr-16' />
               </div>
             </div>
           </div>

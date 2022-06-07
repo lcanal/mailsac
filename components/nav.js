@@ -45,7 +45,7 @@ export default function Nav(params){
             <div className="hidden md:flex">
               <a
                 href="https://app.pressblox.com/users/sign_up"
-                className="inline-flex items-center ml-10 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-slate-100 bg-orange-500 hover:bg-orange-700"
+                className="inline-flex items-center ml-10 px-4 py-2 border border-transparent text-md font-medium rounded-md text-slate-100 bg-orange-500 hover:bg-orange-700 ronded-md shadow-md transition duration-150 ease-in-out"
               >
                 Sign Up
               </a>

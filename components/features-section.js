@@ -10,13 +10,13 @@ const features = [
   {
     name: 'Add Placeholders',
     description:
-      'Hone in on each word or phrase you want to replace.',
+      'Highlight each word or phrase you want to replace.',
     icon: CollectionIcon,
   },
   {
     name: 'Replace',
     description:
-      'Fill in each template with only the relevant information pertinent to the person receiving it. Redundant typing done!',
+      'Fill in each placeholder meant for the person receiving it.',
     icon: RefreshIcon,
   },
 ]
