@@ -10,7 +10,7 @@ const logos = [
 export default function DemoSection(params) {
     return (
         <>
-        <div className="mb-12 justify-center text-2xl font-extrabold tracking-tight text-gray-900  lg:mb-48 lg:-mt-32 lg:ml-56 md:text-5xl lg:text-6xl flex lg:justify-start">
+        <div className="mb-12 justify-center text-2xl font-extrabold tracking-tight text-gray-900 lg:mb-32 lg:-mt-32 lg:ml-56 md:text-5xl lg:text-6xl flex lg:justify-start">
         Template Demo
         </div>
         <div className="bg-sky-700 border-t-2 border-b-2 border-gray-200 mb-16 lg:mb-48">

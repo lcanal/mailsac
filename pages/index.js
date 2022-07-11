@@ -11,7 +11,7 @@ export default function Home() {
       <div className="relative pt-6 pb-16 sm:pb-24">
         <Nav />
         <main className="sm:mt-24 lg:mt-16">
-          <div className="mx-auto max-w-7xl mb-20 lg:mb-72">
+          <div className="mx-auto max-w-7xl mb-20 lg:mb-60">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
